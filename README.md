@@ -16,7 +16,7 @@ It can also autonomously identify and target human faces using the tilt/pan came
 
 The next phases of development of the software will be 
 
-1. **Integrating sensors** - I have two sonar modules and three PIRs to play with.
+1. **Integrating Sensors** - I have two sonar modules and three PIRs to play with.
 2. **Manual Driving via Intrumentation Alone** - I figure, if I am ever going to give the beast enough intelligence to complete the mission autonomously I had better have at least the same amount myself.
 3. **Autonomous Control** - which is the really fun bit.
 
