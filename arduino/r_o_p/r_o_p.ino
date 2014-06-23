@@ -68,7 +68,6 @@ void loop() {
     if (in_byte > 4 && in_byte < 11) {
       // Drive instructions
       drive(in_byte);
-      
     }
   }
 }
@@ -131,7 +130,6 @@ void drive(char instruction)
 }
 
 void nod() {
-  //Serial.print("hit");
   static int originalPos = servoTilt.read();
   static int nodPos = originalPos;
   static int nodEnd;
@@ -156,7 +154,6 @@ void nod() {
 }
 
 void shake() {
-  //Serial.print("hit");
   static int originalPos = servoPan.read();
   static int shakeStart = originalPos + 15;
   static int shakeEnd;
