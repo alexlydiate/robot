@@ -22,10 +22,10 @@ void controlTest();
 void trackPoint(Point frameCentre, Point faceCentre);
 
 // Classifiers (eyes, nose and mouth are out for a bit until a simple version is all happy on the Robot)
-String face_cascade_name = "haarcascade_frontalface_alt.xml";
-//String eyes_cascade_name = "haarcascade_eye_tree_eyeglasses.xml";
-//String nose_cascade_name = "haarcascade_mcs_nose.xml";
-//String mouth_cascade_name = "haarcascade_mcs_mouth.xml";
+String face_cascade_name = "classifiers/haarcascade_frontalface_alt.xml";
+//String eyes_cascade_name = "classifiers/haarcascade_eye_tree_eyeglasses.xml";
+//String nose_cascade_name = "classifiers/haarcascade_mcs_nose.xml";
+//String mouth_cascade_name = "classifiers/haarcascade_mcs_mouth.xml";
 
 CascadeClassifier face_cascade;
 //CascadeClassifier eyes_cascade;
@@ -48,7 +48,7 @@ bool tp_test = false;
 bool drive_test = true;
 // Mode
 int manual = true;
-int vision = false;
+int vision = true;
 
 int main()
 {
