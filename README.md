@@ -1,7 +1,7 @@
 the Robot of Paradise
 =====
 
-c++ roving robot project for Linux and Arduino
+C++ roving robot project for Linux and Arduino
 -----
 
 This is the software for my ongoing mobile robot project.
