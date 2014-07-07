@@ -6,4 +6,4 @@ LIBS=-lopencv_core -lopencv_objdetect -lopencv_highgui -lopencv_imgproc -lncurse
 EXEC=./rop
 
 all:
-	$(CC) $(CFLAGS) $(SRC) -std=c++0x $(INCLUDE) $(LIBS) -o $(EXEC)
+	$(CC) $(CFLAGS) $(SRC) -std=c++0x $(INCLUDE) $(LIBS) -g -o $(EXEC)
