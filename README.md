@@ -1,6 +1,3 @@
-the Robot of Paradise
-=====
-
 C++ roving robot project for Linux and Arduino
 -----
 
